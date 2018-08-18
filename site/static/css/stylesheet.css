@@ -1,0 +1,25 @@
+.container-fluid {
+	width: 100%;
+	color: #696969;
+}
+
+.section {
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 10px;
+	min-height:  100px;
+}
+
+.bottom {
+	margin-top: 5px;
+}
+
+.download-btn {
+	background-color: #FFF;
+	color: #778899;
+	padding: 0px;
+}
+
+.download-btn:hover {
+	color: #696969;
+}
