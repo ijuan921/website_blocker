@@ -22,7 +22,7 @@ def websites_list():
     return ast.literal_eval(lst)
 
 def os_path():
-    if platform.system() == 'Linux' or platform.system() == 'Mac':
+    if platform.system() == 'Linux' or platform.system() == 'Darwin':
         return os.path.join(os.path.sep, "etc", "hosts")
     return os.path.join("C:", os.path.sep, "WINDOWS", "system32", "drivers", "etc", "hosts")
 
